@@ -13,3 +13,17 @@ sources:
             description: "Preço de fechamento da commodity"
           - name: símbolo
             description: "Símbolo de commodity"
+
+    
+      - name: movimentacao_commodities
+        description: "Tabela seed"
+        columns:
+          - name: date
+            description: "Data de transação"
+          - name: symbol
+            description: "símbolo de commodity"
+          - name: action
+            description: "Tipo de transação (buy/sell)"
+          - name: quantity
+            description: "quantidade transacionada"
+            
