@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 flowchart TD;
     A([Início]) --> B[Extrair Dados das Commodities]
     B --> B1[Buscar Dados de Cada Commodity]
@@ -27,5 +27,4 @@ flowchart TD;
         D
         D1
     end
-
-'''
+```
